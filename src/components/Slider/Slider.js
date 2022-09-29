@@ -19,10 +19,7 @@ const Hero = styled.div`
   background-image: ${({ img }) => `url(${img})`};
   background-repeat: no-repeat;
   background-size: cover;
-
-  @media screen and (max-width: 640px) {
-    background-position: center;
-  }
+  background-position: center;
 `;
 
 const Slider = ({ sliderImages }) => {

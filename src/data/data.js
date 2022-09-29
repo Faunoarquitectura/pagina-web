@@ -2,12 +2,12 @@ export const sliderImages = [
   {
     title: "Arquitectura & Construcción",
     subtitle: "SOMOS NATURALEZA VIVA.",
-    img: "images/foto1.jpeg",
+    img: "images/001.jpg",
   },
   {
     title: "Casa + Entorno",
     subtitle: "Descubrí una nueva forma de vivir tus espacios.",
-    img: "images/fauno1.jpeg",
+    img: "images/002.jpg",
   },
   {
     title: "SOMOS FAUNO",
@@ -48,14 +48,6 @@ export const projects = [
     placeInfo2: "Ubicación: Barrio Hudson Park, Buenos Aires, Arg.",
     images: ["images/casa-esquina/1.jpg", "images/casa-esquina/2.jpg", "images/casa-esquina/3.jpg","images/casa-esquina/4.jpg","images/casa-esquina/5.jpg", "images/casa-esquina/6.jpg", "images/casa-esquina/7.jpg","images/casa-esquina/8.jpg", "images/casa-esquina/9.jpg", "images/casa-esquina/10.jpg", "images/casa-esquina/11.jpg", "images/casa-esquina/12.jpg","images/casa-esquina/13.jpg", "images/casa-esquina/15.jpg", "images/casa-esquina/16.jpg"],
     bImg: "images/numeros-04.png",
-  },
-  {
-    title: "Casa del roble viejo.",
-    projectInfo: "Se trata de una ampliación de más de 90M2 y el rediseño de los interiores de toda la casa. El protagonista es el roble que observa el proyecto desde el remate del lote, hacia donde dominan la gran mayoría de las vistas.",
-    placeInfo: "Superficie: 286M2 cubiertos y 96M2 semicubiertos.",
-    placeInfo2: "Ubicación: Barrio Village del Parque, Buenos Aires, Arg",
-    images: ["images/fauno.jpg", "images/fauno1.jpeg", "images/fauno.jpeg"],
-    bImg: "images/numeros-05.png",
   },
   {
     title: "Casa del árbol.",

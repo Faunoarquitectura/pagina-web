@@ -15,7 +15,7 @@ const SliderContainer = styled.div`
     position: fixed;
     top:0;
     left:0;
-    z-index: 99999;
+    z-index: 10;
     margin-bottom: 20vh;
 `
 
@@ -24,7 +24,9 @@ const Hero = styled.div`
     height: 80%;
     background-image: ${({ img }) => `url(${img})`};
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-color: black;
+    background-position: center;
     margin-top: 10vh;
     margin-left: 10%;
     @media screen and (max-width: 1024px) {
@@ -41,6 +43,7 @@ const SliderModal = (props) => {
     <>
         <SliderContainer>
         <Swiper
+          onClick={ props.onClick }
           className="work-swiper"
           modules={[Pagination, Autoplay, Navigation, EffectFade]}
           pagination={{
@@ -57,7 +60,7 @@ const SliderModal = (props) => {
         >
           {props.images.map((image, index) => (
             <SwiperSlide key={index}>
-              <Hero onClick={ props.onClick } img={image}></Hero>
+              <Hero img={image}></Hero>
             </SwiperSlide>
           ))}
         </Swiper>

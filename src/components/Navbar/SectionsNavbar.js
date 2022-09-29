@@ -75,16 +75,16 @@ const SectionNavbar = () => {
         </LogoContainer>
         <NavMenu>
           <Link to="/" onClick={ctx.toggleMenu}>
-            <NavLink>HOME</NavLink>
+            <NavLink>INICIO</NavLink>
           </Link>
           <Link to="/Work" onClick={ctx.toggleMenu}>
-            <NavLink>WORK</NavLink>
+            <NavLink>TRABAJOS</NavLink>
           </Link>
           <Link to="/about" onClick={ctx.toggleMenu}>
-            <NavLink>ABOUT</NavLink>
+            <NavLink>NOSOTROS</NavLink>
           </Link>
           <Link to="/contact" onClick={ctx.toggleMenu}>
-            <NavLink>CONTACT</NavLink>
+            <NavLink>CONTACTO</NavLink>
           </Link>
         </NavMenu>
       </NavbarUI>

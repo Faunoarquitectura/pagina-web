@@ -100,17 +100,6 @@ export const Work = () => {
         bImg={projects[7].bImg}
         images={projects[7].images}
       />
-      <Project
-        height="35%"
-        padT="4%"
-        flexDirection="row"
-        title={projects[8].title}
-        projectInfo={projects[8].projectInfo}
-        placeInfo={projects[8].placeInfo}
-        placeInfo2={projects[8].placeInfo2}
-        bImg={projects[8].bImg}
-        images={projects[8].images}
-      />
       <Footer />
     </>
   );

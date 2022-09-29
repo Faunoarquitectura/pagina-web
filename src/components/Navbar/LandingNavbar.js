@@ -101,25 +101,25 @@ const Navbar = () => {
         </LogoContainer>
         <NavMenu>
           <Link to="/" onClick={window.innerWidth < 1024 && ctx.toggleMenu}>
-            <NavLink>HOME</NavLink>
+            <NavLink>INICIO</NavLink>
           </Link>
           <Link
             to="./Work"
             onClick={window.innerWidth < 1024 && ctx.toggleMenu}
           >
-            <NavLink>WORK</NavLink>
+            <NavLink>TRABAJOS</NavLink>
           </Link>
           <Link
             to="/about"
             onClick={window.innerWidth < 1024 && ctx.toggleMenu}
           >
-            <NavLink>ABOUT</NavLink>
+            <NavLink>NOSOTROS</NavLink>
           </Link>
           <Link
             to="/contact"
             onClick={window.innerWidth < 1024 && ctx.toggleMenu}
           >
-            <NavLink>CONTACT</NavLink>
+            <NavLink>CONTACTO</NavLink>
           </Link>
         </NavMenu>
       </NavbarUI>
