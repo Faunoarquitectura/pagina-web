@@ -109,8 +109,8 @@ const ContactMap = () => {
           <MapInfoTitle>
             <strong>Contacto</strong>
           </MapInfoTitle>
-          <MapInfoParagraph>Tel:123456789</MapInfoParagraph>
-          <MapInfoParagraph>Mail:faunoarq@gmail..com</MapInfoParagraph>
+          <MapInfoParagraph>Tel: +54 9 11 2736-4244</MapInfoParagraph>
+          <MapInfoParagraph>Mail: proyectosfauno@gmail.com</MapInfoParagraph>
         </MapInfoContactContainer>
         <MapInfoLocationContainer>
           <MapInfoTitle>
