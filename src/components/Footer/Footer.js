@@ -75,7 +75,7 @@ const Footer = () => {
     <div>
       <FooterContainer>
         <ContactFooter>
-          <ContactText>Bs. As. Argentina | (+54) 123456789</ContactText>
+          <ContactText>Bs. As. Argentina | (+54) 9 11 2736-4244</ContactText>
         </ContactFooter>
         <SocialFooter>
           <FooterLink href="https://www.facebook.com/faunoarquitectura/">
